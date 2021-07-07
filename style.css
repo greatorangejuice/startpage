@@ -1,0 +1,136 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: url("src/images/background.jpg") no-repeat;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.land {
+    display: grid;
+    color: white;
+    /*font-style: italic;*/
+    grid-template-columns: auto;
+    grid-template-rows: 100px auto 50px;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    border-bottom: 2px solid rgb(141, 139, 139);
+}
+
+.section-top {
+    display: flex;
+    margin: 10px;
+    height: 495px;
+}
+
+.content {
+    width: 300px;
+    font-weight: bold;
+    font-size: 26px;
+    /*font-weight: normal;*/
+    text-align: center;
+}
+
+.main_img {
+    width: 650px;
+    margin: 30px 10px;
+    background: url("src/images/templ1.png") no-repeat;
+    background-size: 90%;
+}
+
+.content_right {
+    width: 300px;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+}
+
+.tools_main {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 20px 20px 20px 20px 20px 20px;
+    grid-gap: 10px;
+}
+
+.tool {
+    margin-bottom: 10px;
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 50%;
+    background: white;
+    opacity: 0.9;
+}
+
+.tool img, span {
+    padding: 20px;
+}
+
+.example_top {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin: 10px auto;
+}
+
+.item {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #5c5c5c;
+}
+
+.footer {
+    margin-top: 10px;
+    border-top: 2px solid rgb(126, 125, 125);
+}
+
+button {
+  border: none;
+  background-color: rgb(59, 221, 221);
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+
+}
+
+button:hover {
+  background-color: rgb(218, 29, 29);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(218, 29, 29);
+}
+
+footer > span {
+  padding: 5px;
+}
